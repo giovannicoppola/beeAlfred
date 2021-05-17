@@ -36,7 +36,7 @@ A workflow to manage and update your Beeminder goals with Alfred.
 5. _Optional:_ Setup a hotkey to launch beeAlfred
 6. _Optional:_ Change the keyword to launch beeAlfred
 	- keyword currently set to `!q`
-7. Change the comment string (currently: `-- from Alfred 🐝`)
+7. _Optional:_ Change the comment string (currently: `-- from Alfred 🐝`)
 	- In Alfred, open the 'Configure Workflow and Variables' window in beeAlfred preferences
 	- Edit the `BEECOMMENT` variable
 
