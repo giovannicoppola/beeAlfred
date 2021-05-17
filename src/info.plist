@@ -272,8 +272,7 @@
 				<key>runningsubtext</key>
 				<string>retrieving your goals...</string>
 				<key>script</key>
-				<string>#python beeminder_get.py "$rando"
-python beeminder_get.py</string>
+				<string>python beeminder_get.py</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
