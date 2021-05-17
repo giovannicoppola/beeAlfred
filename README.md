@@ -3,7 +3,9 @@
 ### Mind the [🐝](https://www.beeminder.com/) with [Alfred](https://www.alfredapp.com/)!
 
 A workflow to manage and update your Beeminder goals with Alfred. 
+
 ![](images/beeAlfred.gif "")
+
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
 
