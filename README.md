@@ -74,6 +74,7 @@ A workflow to manage and update your Beeminder goals with Alfred.
 # Changelog
 
 - 05-17-2021: version 1.0
+- 05-18-2021: version 1.0.1 (minor fixes)
 
 <a name="feedback"></a>
 # Feedback
