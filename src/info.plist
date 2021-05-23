@@ -466,7 +466,7 @@ Usage
 		<string>BEEUSER</string>
 	</array>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/giovannicoppola/beeAlfred</string>
 </dict>
