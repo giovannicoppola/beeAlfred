@@ -65,7 +65,7 @@ def main(wf):
         readable = readable.strftime('%M:%S')
         myHou = myStamp/3600
         
-        wf.add_item(title=goal['slug'] + " - " + goal['title'],
+        wf.add_item(title=goal['slug'] + " - " + goal['title'] + " ($"+ str(int(goal['pledge'])) + ")",
             subtitle=str(myHou) + ":" + str(readable)  + " " + goal['limsumdate'],
             icon = myIcon,
             valid='TRUE',
