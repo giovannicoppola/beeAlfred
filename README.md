@@ -6,7 +6,11 @@ A workflow to manage and update your Beeminder goals with Alfred.
 
 ![](images/beeAlfred.gif "")
 
-
+<a href="https://github.com/giovannicoppola/beeAlfred/releases/latest/">
+  
+  <img alt="Downloads"
+       src="https://img.shields.io/github/downloads/giovannicoppola/beeAlfred/total?color=purple&label=Downloads"><br/>
+</a>
 <!-- MarkdownTOC autolink="true" bracket="round" depth="3" autoanchor="true" -->
 
 - [Setting up](#setting-up)
