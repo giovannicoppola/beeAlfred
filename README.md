@@ -80,6 +80,7 @@ A workflow to manage and update your Beeminder goals with Alfred.
 - 05-17-2021: version 1.0
 - 05-18-2021: version 1.0.1 (minor fixes)
 - 05-23-2021: version 1.0.2 (adding pledge)
+- 03-15-2022: version 2.0 (Python3, no dependencies)
 
 <a name="feedback"></a>
 # Feedback
