@@ -150,6 +150,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
 				<key>triggerid</key>
 				<string>Restart</string>
 			</dict>
@@ -305,11 +307,9 @@ python3 beeminder_get.py</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>6</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>Z</string>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -350,12 +350,14 @@ python3 beeminder_get.py</string>
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string>https://www.beeminder.com/{var:BEEUSER}/{query}#data</string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -383,87 +385,139 @@ Usage
 		<key>20ADD8B0-284C-464F-86BF-CDC303CDACE7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>615</integer>
+			<real>615</real>
 			<key>ypos</key>
-			<integer>105</integer>
+			<real>105</real>
 		</dict>
 		<key>2ECFF55B-5B60-413E-95AE-BE1BF28AE60B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>975</integer>
+			<real>975</real>
 			<key>ypos</key>
-			<integer>105</integer>
+			<real>105</real>
 		</dict>
 		<key>3F967063-1526-4697-A640-2F78732BED34</key>
 		<dict>
 			<key>xpos</key>
-			<integer>395</integer>
+			<real>395</real>
 			<key>ypos</key>
-			<integer>230</integer>
+			<real>230</real>
 		</dict>
 		<key>4CC89AFA-F896-4125-B504-26D5FB05BE1F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>100</integer>
+			<real>100</real>
 			<key>ypos</key>
-			<integer>365</integer>
+			<real>365</real>
 		</dict>
 		<key>4FB22564-A9A6-4247-AD3C-A09B35E46363</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1385</integer>
+			<real>1385</real>
 			<key>ypos</key>
-			<integer>385</integer>
+			<real>385</real>
 		</dict>
 		<key>77401C41-D9A0-4C1C-B28A-BBF9B0BEAF89</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1400</integer>
+			<real>1400</real>
 			<key>ypos</key>
-			<integer>90</integer>
+			<real>90</real>
 		</dict>
 		<key>816640BC-A666-4ED9-A8B4-FD39A84CE5F5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>735</integer>
+			<real>735</real>
 			<key>ypos</key>
-			<integer>75</integer>
+			<real>75</real>
 		</dict>
 		<key>A5095EF1-DE0E-474C-AC8B-C374680C7439</key>
 		<dict>
 			<key>xpos</key>
-			<integer>100</integer>
+			<real>100</real>
 			<key>ypos</key>
-			<integer>90</integer>
+			<real>90</real>
 		</dict>
 		<key>F7D3DC14-9536-4A55-9197-C1D6E4C148C1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>735</integer>
+			<real>735</real>
 			<key>ypos</key>
-			<integer>400</integer>
+			<real>400</real>
 		</dict>
 		<key>FB631951-520A-4513-9092-90279435DAF8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1120</integer>
+			<real>1120</real>
 			<key>ypos</key>
-			<integer>230</integer>
+			<real>230</real>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<dict>
-		<key>BEECOMMENT</key>
-		<string>-- from Alfred 🐝</string>
-		<key>BEETOKEN</key>
-		<string>vpQ9Rm5S24HKysggZkSt</string>
-		<key>BEEUSER</key>
-		<string>giovanni</string>
-	</dict>
-	<key>variablesdontexport</key>
+	<key>userconfigurationconfig</key>
 	<array>
-		<string>BEETOKEN</string>
-		<string>BEEUSER</string>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Beeminder Username</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>BEEUSER</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Copy the authentication token from "Apps &amp; API" in your Beeminder account settings</string>
+			<key>label</key>
+			<string>Beeminder Token</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>BEETOKEN</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>e.g. -- from Alfred 🐝</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Comment</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>BEECOMMENT</string>
+		</dict>
 	</array>
 	<key>version</key>
 	<string>2.0</string>
