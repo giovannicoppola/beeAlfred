@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# encoding: utf-8
+#!/usr/bin/env python3
 #
 #
 # Monday, April 12, 2021, 6:11 PM
@@ -7,12 +6,7 @@
 
 """Common settings."""
 
-from __future__ import unicode_literals
 import os
-import random
-from workflow import Workflow3, ICON_WARNING
-
-wf = Workflow3()
 
 
 BEEUSER = os.path.expanduser(os.getenv('BEEUSER', ''))
