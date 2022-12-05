@@ -373,14 +373,15 @@ python3 beeminder_get.py</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Mind the 🐝 with Alfred!
+	<string># Mind the 🐝 with Alfred!
 
-Setting up
-Set the BEETOKEN variable to your Beeminder Auth Token
-Set the BEEUSER variable to your Beeminder username
-(Optional) Edit the BEECOMMENT variable
+## Setting up
+- Set the BEETOKEN variable to your Beeminder Auth Token
+- Set the BEEUSER variable to your Beeminder username
+- (Optional) Edit the BEECOMMENT variable
+- (optional) Edit the keyword to launch the workflow (default: `!q`), or add a hotkey
 
-Usage
+## Usage
 - search a goal by typing '!q' followed by a goal name or matching string
 - select your goal by pressing `return`.
 	- `option-return (⌥⏎)` will open the goal in Beeminder
@@ -545,6 +546,8 @@ Usage
 			<string>mainkeword</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>2.1</string>
 	<key>webaddress</key>
