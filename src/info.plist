@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>giovanni.beeAlfred</string>
+	<key>category</key>
+	<string>myWorkflows</string>
 	<key>connections</key>
 	<dict>
 		<key>20ADD8B0-284C-464F-86BF-CDC303CDACE7</key>
@@ -261,7 +263,7 @@ python3 beeminder_post.py "${slug}" "${myValue}"</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>{var:mainweyword}</string>
+				<string>{var:mainkeyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -273,9 +275,7 @@ python3 beeminder_post.py "${slug}" "${myValue}"</string>
 				<key>runningsubtext</key>
 				<string>retrieving your goals...</string>
 				<key>script</key>
-				<string>export PATH=/opt/homebrew/bin:/usr/local/bin:$PATH
-
-export PYTHONPATH="$PWD/lib"
+				<string>export PYTHONPATH="$PWD/lib"
 
 python3 beeminder_get.py</string>
 				<key>scriptargtype</key>
@@ -543,13 +543,13 @@ python3 beeminder_get.py</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>mainkeword</string>
+			<string>mainkeyword</string>
 		</dict>
 	</array>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2.1</string>
+	<string>2.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/giovannicoppola/beeAlfred</string>
 </dict>
