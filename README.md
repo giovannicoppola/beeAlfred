@@ -67,6 +67,7 @@ A workflow to manage and update your Beeminder goals with Alfred.
 
 <h1 id="changelog">Changelog 🧰</h1>
 
+- 07-06-2023: version 2.2 (fixed typo in variable name)
 - 12-05-2022: version 2.1 (Alfred 5)
 - 03-15-2022: version 2.0 (Python3, no dependencies)
 - 05-23-2021: version 1.0.2 (adding pledge)
